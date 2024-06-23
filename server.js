@@ -5,8 +5,6 @@ import cors from "cors";
 import path, { dirname } from "path";
 import { fileURLToPath } from "url";
 
-import cors from "cors"
-
 // creating my own _dirname
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
